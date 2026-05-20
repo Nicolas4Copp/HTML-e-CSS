@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'droid' ;
+    src: url(fonte/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+.fonte{
+    font-family: 'droid';
+    color: rgba(6, 88, 6, 0.859);
+}
+
+.fonte2{
+    font-family: 'droid';
+    color: rgba(6, 88, 6, 0.859);
+    background-image: linear-gradient(to right, #84e1ac5f, white );
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(36, 226, 36), rgba(4, 56, 4, 0.859));
+    margin: 0px ;
+    padding: 0px 10px;
+}
+
+header>h1{
+    text-align: center ;
+    margin: -10px;
+    padding-top: 25px ;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+header>p{
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header>div{
+    padding-bottom: 10px;
+}
+
+.tag{
+    padding: 10px 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.tag:hover{
+    background-color: rgb(84, 176, 84);
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+main{
+    margin: 0px auto 15px auto;
+    background-color: white;
+    text-indent: 15px;
+    padding: 20px ;
+    min-width: 320px;
+    max-width: 800px;
+    border-radius: 0px 0px 15px 15px;
+    font-family: sans-serif;
+}
+
+main>h1{
+    margin-top: 0px;
+    padding: 20px 0px 0px px;
+}
+
+.center{    
+    text-align: center;
+    text-indent: 0%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+#video > iframe {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+}
+
+#video{
+    text-indent: 0px;
+    background-color: green;
+    margin: 0px -20px;
+    padding: 3% 8%;
+    position: relative;
+    padding-bottom: 59%;
+}
+
+#qam{
+    background-color: #C4EBD6 ;
+    padding: 2px 6px;
+    margin: 15px 0px;
+    border-radius: 15px;
+    
+}
+
+#qam > h3 {
+    margin: -6px;
+    padding: 5px 0px;
+    background-color: #2FA866;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#qam > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00a0\00a0';
+}
+
+a{
+    color: #2FA866;
+    text-decoration: none;
+}
+
+a::after{
+    content: '🔗';
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+picture > img{
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+span{
+    color: #2FA866;
+}

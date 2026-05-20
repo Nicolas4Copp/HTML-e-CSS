@@ -1,0 +1,26 @@
+@charset "UTF8";
+
+body
+{
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+h1
+{
+color: green;
+}
+h2
+{
+    color: aqua;
+}
+#OW
+{
+    color: blueviolet;text-align: center;
+    background-color: olive;
+}
+.AV
+{
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
