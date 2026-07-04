@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color: aliceblue;
     margin: 0;
@@ -11,24 +16,65 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 5%;
     font-family: 'Passion One', sans-serif;
 }
 
 header > h1{
     margin: 0;
-    padding: 40px 0px 0px 0px;
-    font-size: 8vw;
+    padding: 50px 0px 0px 0px;
+    font-size: 9vw;
 }
 
-#c1{
-    padding: 15% 6%;
-    font-size: 4vw;
-    font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
+header > p{
+    margin: 0px 0px 5px 0px;
+    padding: 0px 0px 50px 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#c2{
-    background-color: yellow;
+.c1{
+    line-height: 2em;
+    font-size: 3.5vw;
     font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 4vw;
+    padding: 10vh 0px 10vh 30px;
+}
+
+.c1 > p{
+    margin-block-end: 2em;
+    margin-inline-start: 0em;
+}
+
+.c2{
+    font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+.c2 > p{
+    margin: 10vh 0px 10vh 30px;
+    background-color: rgba(0, 0, 0, 0.541);
+    display: inline-block;
+    color: white;
+   
+}
+
+#img1{
+    background: yellow url(imagens/background001.jpg) center right no-repeat fixed;
+    background-size: cover;
+}
+
+#img2{
+    background: yellow url(imagens/background002.jpg) center right no-repeat fixed;
+    background-size: cover;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+span{
+    font-weight: bold;
 }
